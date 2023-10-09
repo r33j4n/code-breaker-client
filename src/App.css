@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+.HomePageStyle{
+  background-color: #0F0F0F;
+  text-align: center;
+font-family: iceland;
+}
