@@ -37,8 +37,119 @@
   }
 }
 
-.HomePageStyle{
-  background-color: #0F0F0F;
-  text-align: center;
-font-family: iceland;
+.HomePageStyle {
+  font-family: 'Iceland';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #1E1E1E;
+  min-height: 100vh;
+  display: flex;
+  align-items: center !important;
+  justify-content: center;
+  flex-direction: column;
+  color: #72FC41;
 }
+.GameTitle{
+  font-size: 200px !important;
+}
+@media (max-width: 768px) {
+  .GameTitle {
+    font-size: 100px !important;
+  }
+}
+
+/* Media query for screens smaller than 576px */
+@media (max-width: 576px) {
+  .GameTitle {
+    font-size: 75px !important;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  .GameTitle {
+    font-size: 100px !important;
+  }
+}
+
+/* Media query for screens smaller than 576px */
+@media (max-width: 576px) {
+  .GameTitle {
+    font-size: 75px !important;
+    
+  }
+}
+
+.Playrectangle {
+ 
+  border: 1px solid #f7f4f4;
+  background-color: #1E1E1E;
+  font-size: 75px;
+  color: #f7f4f4;
+  margin: 0 auto; /* Center horizontally within its parent container */
+}
+
+
+
+/* Media query for screens smaller than or equal to 768px */
+@media (max-width: 768px) {
+  .Playrectangle {
+    font-size: 50px;
+    /* Adjust the width for smaller screens */
+    /* Adjust the height for smaller screens */
+  }
+}
+
+/* Media query for screens smaller than or equal to 576px */
+@media (max-width: 576px) {
+  .Playrectangle {
+    /* Adjust the width for even smaller screens */
+    
+    font-size: 30px;/* Adjust the height for even smaller screens */
+  }
+}
+
+@media (max-width: 200px){
+  .Playrectangle{
+    font-size: 20px;
+  }
+}
+
+.Levelx{
+  font-size: 100px !important;
+  color: #f7f4f4;
+}
+
+@media (max-width: 576px) {
+  .Levelx {
+    font-size: 50px !important;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  .Levelx {
+    font-size: 75px !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .Levelx {
+    font-size: 35px !important;
+  }
+}
+
+.BoxBorder{
+  border: 1px solid #72FC41;
+  background-color: #1E1E1E;
+  color: #f7f4f4;
+  margin:1 auto; /* Center horizontally within its parent container */
+}
+
+
+
+
+
+
